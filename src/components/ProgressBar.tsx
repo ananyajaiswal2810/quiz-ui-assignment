@@ -2,7 +2,12 @@
 
 import { motion } from "framer-motion";
 
-export default function ProgressBar({ index, total }) {
+type ProgressBarProps = {
+  index: number;
+  total: number;
+};
+
+export default function ProgressBar({ index, total }: ProgressBarProps) {
   return (
     <div
       style={{
@@ -23,7 +28,6 @@ export default function ProgressBar({ index, total }) {
             overflow: "hidden",
           }}
         >
-          {/* FILL ANIMATION */}
           <motion.div
             initial={{ width: 0 }}
             animate={{ width: index >= i ? "100%" : "0%" }}
@@ -33,7 +37,7 @@ export default function ProgressBar({ index, total }) {
               background: "#1C3C55",
               borderRadius: "10px",
             }}
-          ></motion.div>
+          />
         </div>
       ))}
     </div>
