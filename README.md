@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quiz UI – Frontend Assignment
 
-## Getting Started
+A responsive and interactive quiz application built based on the provided Figma design.  
+The project focuses on clean UI, smooth animations, and accurate design implementation.
 
-First, run the development server:
+
+## 🚀 Live Demo
+🔗 https://quiz-ui-assignment-z72p-bowwklsih.vercel.app
+
+
+## 📦 Setup Instructions
+
+Follow these steps to run the project locally:
 
 ```bash
+# Clone the repository
+git clone https://github.com/ananyajaiswal2810/quiz-ui-assignment
+
+# Navigate to the project folder
+cd quiz-ui-assignment
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at:
+👉 http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠 Tech Stack Used
+	•	Next.js 16 (App Router)
+	•	React
+	•	TypeScript
+	•	Tailwind CSS
+	•	Framer Motion (animations)
+	•	Vercel (deployment)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✨ Key Features Implemented
+	•	Multi-step quiz flow with navigation
+	•	Animated progress bar synced with questions
+	•	Option selection with visual feedback
+	•	Submit and result screen with animated score
+	•	Restart quiz functionality
+	•	Pixel-accurate UI based on Figma
+	•	Responsive layout handling
+	•	Clean component-based architecture
 
-## Learn More
+🧠 Assumptions Made
+	•	Quiz data is static and stored locally
+	•	Only single correct answer per question
+	•	User must answer all questions before submission
+	•	No backend or authentication required
+	•	Desktop-first design as per Figma (1920×1080)
 
-To learn more about Next.js, take a look at the following resources:
+⏱ Time Spent on Assignment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+~10–12 hours, including:
+	•	Design implementation
+	•	UI refinements
+	•	Animations
+	•	Debugging TypeScript & deployment issues
+	•	Vercel deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📂 Folder Structure (Simplified)
+src/
+ ├─ app/
+ ├─ components/
+ │   ├─ QuizContainer.tsx
+ │   ├─ QuestionCard.tsx
+ │   └─ ProgressBar.tsx
+ ├─ data/
+ │   └─ questions.ts
+ └─ styles/
 
-## Deploy on Vercel
+✅ Deployment
+The project is deployed on Vercel and built successfully without errors.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🙌 Thank You
+This assignment was a great opportunity to work on real-world UI implementation and frontend problem-solving.
